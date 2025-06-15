@@ -31,8 +31,8 @@ unset rc
 ## --- Set up ---
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(zellij setup --generate-auto-start bash)"
-eval "$(starship inti bash)"
-eval "$(zoxide inti bash)"
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 eval "$(atuin init bash)"
 eval "$(fzf --bash)"
 

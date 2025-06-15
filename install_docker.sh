@@ -7,4 +7,5 @@ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo systemctl enable --now docker
 
 # https://docs.docker.com/engine/install/linux-postin
+
 sudo usermod -aG docker $USER

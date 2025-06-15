@@ -27,3 +27,6 @@ setup/
 docs/
 
 install_docker.sh
+install_vscode.sh
+install_flatpaks.sh
+install.sh
