@@ -56,3 +56,8 @@ alias clr="reset"
 alias ls="eza --long --header --icons --git --total-size"
 alias ll="eza --long --header --icons --git --total-size --git-ignore --tree"
 alias zl="zellij"
+
+### --- Functions for containers ---
+start_redis () {
+    podman run --rm -d -p "127.0.0.1:6378:6379" --name=redis redis:7
+}
