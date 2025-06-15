@@ -1,0 +1,14 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.startupEditor": "none",
+    "workbench.editor.editorActionsLocation": "hidden"
+}

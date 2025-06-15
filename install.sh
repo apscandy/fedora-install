@@ -13,5 +13,3 @@ mkdir -p ~/Projects/Playground
 mkdir -p ~/Projects/Repos
 
 ln -s ~/.fonts ~/.local/share/fonts
-
-dconf load /org/gnome/terminal/ < gnome_terminal_settings.txt
