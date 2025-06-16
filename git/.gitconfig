@@ -31,7 +31,6 @@
 [core]
 	editor = code --wait
 	excludesFile = ~/.gitignore_global
-	excludeFile = ~/.gitignore_global
 [rerere]
 	enabled = true
 [gpg]
