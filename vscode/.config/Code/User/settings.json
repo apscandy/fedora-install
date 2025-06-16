@@ -10,5 +10,6 @@
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.startupEditor": "none",
-    "workbench.editor.editorActionsLocation": "hidden"
+    "workbench.editor.editorActionsLocation": "hidden",
+    "files.autoSave": "afterDelay"
 }

@@ -69,3 +69,6 @@ start_mysql() {
 start_postgres(){
     podman run --rm -d -p "127.0.0.1:5432:5432" --name=postgres -e POSTGRES_HOST_AUTH_METHOD=trust postgres:16
 }
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
