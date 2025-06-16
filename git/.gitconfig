@@ -1,0 +1,39 @@
+[user]
+	name = Andrew Clarke
+	email = 74689127+apscandy@users.noreply.github.com
+	signingkey = /home/andy/.ssh/id_ed25519.pub
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
+[brnach]
+	sort = -committerdate
+[column]
+	ui = auto
+[alias]
+	s = status -sb
+	swc = switch -c
+	sw = switch
+	cm = commit -m
+	cv = commit -v
+	ad = add
+	ada = add --all
+	lg = log --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	lgf = log --color --graph --abbrev-commit --pretty=medium --decorate --date=relative 
+	staash = stash --all
+	br = branch -r
+	ba = branch -a
+	bv = branch -vva
+	pls = push --force-with-lease
+	blm = blame -w -C -C -C
+[fetch]
+	prune = true
+[core]
+	editor = code --wait
+	excludesFile = ~/.gitignore_global
+[rerere]
+	enabled = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
