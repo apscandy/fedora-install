@@ -16,7 +16,6 @@
 	sw = switch
 	cm = commit -m
 	cv = commit -v
-	ad = add
 	ada = add --all
 	lg = log --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 	lgf = log --color --graph --abbrev-commit --pretty=medium --decorate --date=relative 
@@ -26,11 +25,13 @@
 	bv = branch -vva
 	pls = push --force-with-lease
 	blm = blame -w -C -C -C
+	po = push origin
 [fetch]
 	prune = true
 [core]
 	editor = code --wait
 	excludesFile = ~/.gitignore_global
+	excludeFile = ~/.gitignore_global
 [rerere]
 	enabled = true
 [gpg]
