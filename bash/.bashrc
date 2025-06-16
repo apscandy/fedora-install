@@ -33,7 +33,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(zellij setup --generate-auto-start bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
-eval "$(atuin init bash)"
+# eval "$(atuin init bash)"
 eval "$(fzf --bash)"
 
 ## --- Configs ---
@@ -53,11 +53,19 @@ alias rm="trash -rdf"
 alias cd="z"
 alias clear="reset"
 alias clr="reset"
-alias ls="eza --long --header --icons --git --total-size"
-alias ll="eza --long --header --icons --git --total-size --git-ignore --tree"
+alias ls="eza --long --header --icons --git"
+alias ll="eza --long --header --icons --git --git-ignore --tree"
 alias zl="zellij"
 
-### --- Functions for containers ---
-start_redis () {
+## --- Functions for containers ---
+start_redis() {
     podman run --rm -d -p "127.0.0.1:6378:6379" --name=redis redis:7
+}
+
+start_mysql() {
+    podman run --rm -d -p "127.0.0.1:3306:3306" --name=mysql -e MYSQL_ROOT_PASSWORD= -e MYSQL_ALLOW_EMPTY_PASSWORD=true mysql:8.4
+}
+
+start_postgres(){
+    podman run --rm -d -p "127.0.0.1:5432:5432" --name=postgres -e POSTGRES_HOST_AUTH_METHOD=trust postgres:16
 }
