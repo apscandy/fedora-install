@@ -56,6 +56,9 @@ alias clr="reset"
 alias ls="eza --long --header --icons --git"
 alias ll="eza --long --header --icons --git --git-ignore --tree"
 alias zl="zellij"
+alias fzf="fzf -m --preview='bat --color=always {}'"
+alias codef='code $(fzf -m --preview="bat --color=always {}")'
+alias reload="source ~/.bashrc"
 
 ## --- Functions for containers ---
 start_redis() {

@@ -11,5 +11,6 @@
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.startupEditor": "none",
     "workbench.editor.editorActionsLocation": "hidden",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "never"
 }
