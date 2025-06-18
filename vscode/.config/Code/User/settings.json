@@ -12,5 +12,9 @@
     "workbench.startupEditor": "none",
     "workbench.editor.editorActionsLocation": "hidden",
     "files.autoSave": "afterDelay",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontFamily": "JetBrains Mono Nerd Font",
+    "extensions.ignoreRecommendations": true,
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": false
 }
