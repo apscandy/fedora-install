@@ -19,6 +19,9 @@ flatpak install flathub org.pgadmin.pgadmin4
 # https://flathub.org/apps/org.sqlitebrowser.sqlitebrowser
 flatpak install flathub org.sqlitebrowser.sqlitebrowser
 
+# https://flathub.org/apps/com.redis.RedisInsight
+flatpak install flathub com.redis.RedisInsight
+
 # https://flathub.org/apps/com.bitwarden.desktop
 flatpak install flathub com.bitwarden.desktop
 
