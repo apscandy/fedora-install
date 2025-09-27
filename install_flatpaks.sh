@@ -30,3 +30,6 @@ flatpak install flathub io.podman_desktop.PodmanDesktop -y
 
 # https://flathub.org/apps/org.remmina.Remmina
 flatpak install flathub org.remmina.Remmina -y
+
+# https://flathub.org/en/apps/org.cryptomator.Cryptomator
+flatpak install flathub org.cryptomator.Cryptomator -y
